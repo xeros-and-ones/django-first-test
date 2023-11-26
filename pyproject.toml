@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django-test"
+version = "0.1.0"
+description = ""
+authors = ["Mohamed Tarek <mohamed96tarek@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.7"
+sqlalchemy = "^2.0.23"
+django-stubs = "^4.2.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
